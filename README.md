@@ -1,6 +1,6 @@
 # WordZapper
 
-WordZapper é um jogo recriado por Ageu Felipe Nunes Moraes para fins acadêmicos, inspirado no clássico "WordZapper" da Atari. Este jogo apresenta uma jogabilidade única, onde os jogadores devem montar palavras na ordem correta enquanto desviam de inimigos e gerenciam o tempo limitado.
+Eu, Ageu Felipe Nunes Moraes, recriei o jogo WordZapper para fins acadêmicos, inspirado nesse clássico da Atari. Este jogo apresenta uma jogabilidade única, onde os jogadores devem montar palavras na ordem correta enquanto desviam de inimigos e gerenciam o tempo limitado.
 
 ## Funcionalidades
 
