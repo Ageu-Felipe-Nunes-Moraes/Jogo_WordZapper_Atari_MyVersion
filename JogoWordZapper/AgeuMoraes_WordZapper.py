@@ -1,9 +1,9 @@
-# Módulo para jogo
-import os
 
-import pygame
-# Módulo para aleatoriedade
-import random
+import os # Módulo para Sistema Operacional
+
+import pygame # Módulo para jogo
+    
+import random # Módulo para aleatoriedade
 
 # Inicia o pygame
 pygame.init()

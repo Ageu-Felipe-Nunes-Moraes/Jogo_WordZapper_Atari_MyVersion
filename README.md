@@ -15,6 +15,12 @@ Eu, Ageu Felipe Nunes Moraes, recriei o jogo WordZapper para fins acadêmicos, i
 - Python 3.x
 - Pygame
 
+## Bibliotecas Necessárias
+
+- `pygame`: Para desenvolvimento de jogos.
+- `random`: Para aleatoriedade.
+- `os`: Para sistema operacional.
+
 ## Como Jogar
 
 1. Certifique-se de ter Python e Pygame instalados em seu sistema.
