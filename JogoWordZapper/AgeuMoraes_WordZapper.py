@@ -13,19 +13,19 @@ caminho_atual = os.path.abspath(os.path.dirname(__file__))
 
 # VARIÁVEIS PARA A TELA INICIAL
 tela_inicial = pygame.display.set_mode((1260, 700))
-caminho_relativo_imagem_inicial = os.path.join(caminho_atual, "imagemFundoZapperDesfocada.png")
+caminho_relativo_imagem_inicial = os.path.join(caminho_atual, "Recursos_Jogo/imagemFundoZapperDesfocada.png")
 imagem_inicial = pygame.image.load(caminho_relativo_imagem_inicial)
 imagem_inicial_jogo = pygame.transform.scale(imagem_inicial, (1260, 700))
 janela_inicial_aberta = True
 
 # VARIÁVEIS PARA O JOGO
 # Todos os caminhos relativos dos arquivos do jogo
-caminho_relativo_som_fundo = os.path.join(caminho_atual, 'SomFudoParaJogo.mp3')
-caminho_relativo_efeito_tiro = os.path.join(caminho_atual, 'efeitoSonoroTiroLazer.mp3')
-caminho_relativo_colisao = os.path.join(caminho_atual, 'colisãoSom.mp3')
-caminho_relativo_imagem_fundo = os.path.join(caminho_atual, "imagemFundoZapper.png")
-caminho_relativo_jogador = os.path.join(caminho_atual, "jogadorZapper.png")
-caminho_relativo_inimigo = os.path.join(caminho_atual, "inimigoAsteristico.png")
+caminho_relativo_som_fundo = os.path.join(caminho_atual, 'Recursos_Jogo/SomFudoParaJogo.mp3')
+caminho_relativo_efeito_tiro = os.path.join(caminho_atual, 'Recursos_Jogo/efeitoSonoroTiroLazer.mp3')
+caminho_relativo_colisao = os.path.join(caminho_atual, 'Recursos_Jogo/colisãoSom.mp3')
+caminho_relativo_imagem_fundo = os.path.join(caminho_atual, "Recursos_Jogo/imagemFundoZapper.png")
+caminho_relativo_jogador = os.path.join(caminho_atual, "Recursos_Jogo/jogadorZapper.png")
+caminho_relativo_inimigo = os.path.join(caminho_atual, "Recursos_Jogo/inimigoAsteristico.png")
 
 pygame.mixer.music.load(caminho_relativo_som_fundo)
 pygame.mixer.music.play(loops=-1)
@@ -168,7 +168,7 @@ lista_tempo_para_pausa = []
 # Lista vazia onde será armazenada o tempo do jogo quando uma certa condicional for executada
 lista_tempo_para_erro = []
 
-arquivo_txt_relativo = os.path.join(caminho_atual, 'WordZapper.txt')
+arquivo_txt_relativo = os.path.join(caminho_atual, 'Recursos_Jogo/WordZapper.txt')
 
 # 'Puxa' o arquivo txt com as palavras para o jogo
 with open(arquivo_txt_relativo) as arquivo:
