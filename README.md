@@ -1,54 +1,51 @@
 # WordZapper
 
-Eu, Ageu Felipe Nunes Moraes, recriei o jogo WordZapper para fins acadêmicos, inspirado no clássico da Atari. Este jogo apresenta uma jogabilidade única, onde os jogadores devem montar palavras na ordem correta enquanto desviam de inimigos e gerenciam o tempo limitado.
+I, Ageu Felipe Nunes Moraes, recreated the WordZapper game for academic purposes, inspired by the classic Atari game. This game features unique gameplay where players must form words in the correct order while dodging enemies and managing limited time.
 
-## Funcionalidades
+## Features
 
-- **Montagem de Palavras:** Os jogadores devem montar as palavras que aparecem na tela na ordem correta após o desaparecimento delas.
-- **Tempo Limitado:** O jogo possui um temporizador que diminui constantemente. Cada letra corretamente montada adiciona 5 segundos ao tempo restante.
-- **Desafio de Esquivar:** Inimigos surgem das laterais da tela, e os jogadores devem desviar deles para evitar perder tempo **literalmente**.
-- **Controles Intuitivos:** Use as teclas de setas para movimentar o jogador e a tecla de espaço para atirar.
-- **Fim de Jogo:** O jogo termina quando o temporizador chega a zero. Tente montar o maior número de palavras possível antes disso.
+- **Word Formation:** Players must assemble the words that appear on the screen in the correct order after they disappear.
+- **Limited Time:** The game has a constantly decreasing timer. Each correctly assembled letter adds 5 seconds to the remaining time.
+- **Dodging Challenge:** Enemies appear from the sides of the screen, and players must dodge them to avoid losing time **literally**.
+- **Intuitive Controls:** Use the arrow keys to move the player and the spacebar to shoot.
+- **Game Over:** The game ends when the timer reaches zero. Try to assemble as many words as possible before that.
 
-## Requisitos de Instalação
+## Installation Requirements
 
 - Python 3.x
 - Pygame
 
-## Bibliotecas Necessárias
+## Required Libraries
 
-- `pygame`: Para desenvolvimento de jogos.
-- `random`: Para aleatoriedade.
-- `os`: Para sistema operacional.
+- `pygame`: For game development.
+- `random`: For randomness.
+- `os`: For operating system operations.
 
-## Como Jogar
+## How to Play
 
-1. Certifique-se de ter Python e Pygame instalados em seu sistema.
-2. Clone ou baixe o repositório deste jogo.
-3. Execute o arquivo principal do jogo.
-4. Use as teclas de setas para movimentar o jogador e a tecla de espaço para atirar.
-5. Monte as palavras na ordem correta usando as letras que aparecem na tela.
-6. Desvie dos inimigos que surgem das laterais da tela.
-7. Atire no símbolo '*' para pontuar após a montagem de cada palavra.
-8. Ganhe tempo extra para cada letra corretamente montada.
-9. Tente montar o maior número de palavras possível antes que o tempo acabe.
+1. Ensure that Python and Pygame are installed on your system.
+2. Clone or download the repository of this game.
+3. Run the main game file.
+4. Use the arrow keys to move the player and the spacebar to shoot.
+5. Assemble the words in the correct order using the letters that appear on the screen.
+6. Dodge the enemies that appear from the sides of the screen.
+7. Shoot the '*' symbol to score after assembling each word.
+8. Gain extra time for each correctly assembled letter.
+9. Try to assemble as many words as possible before the time runs out.
 
-## Como Contribuir
+## How to Contribute
 
-Se você deseja contribuir para o desenvolvimento deste jogo, siga estas etapas:
+If you wish to contribute to the development of this game, follow these steps:
 
-1. Fork o repositório.
-2. Faça suas modificações e melhorias no código.
-3. Teste suas alterações para garantir que funcionem corretamente.
-4. Envie um pull request descrevendo as mudanças que você fez e suas razões para elas.
+1. Fork the repository.
+2. Make your modifications and improvements to the code.
+3. Test your changes to ensure they work correctly.
+4. Submit a pull request describing the changes you made and the reasons for them.
 
-## Autor
+## Author
 
-Este jogo foi recriado por Ageu Felipe Nunes Moraes como parte de um projeto acadêmico inspirado no clássico WordZapper da Atari. Para dúvidas ou sugestões, entre em contato pelo email [ageumoraes67@gmail.com].
+This game was recreated by Ageu Felipe Nunes Moraes as part of an academic project inspired by the classic Atari WordZapper game. For questions or suggestions, contact [ageumoraes67@gmail.com](mailto:ageumoraes67@gmail.com).
 
-## Aviso Legal
+## Disclaimer
 
-Este é um projeto de software desenvolvido por um indivíduo e não tem afiliação com a Atari ou seus produtos.
-
----
-
+This is a software project developed by an individual and is not affiliated with Atari or its products.
